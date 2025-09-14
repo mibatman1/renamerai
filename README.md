@@ -38,6 +38,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/<your-username>/renamerai.git
 cd renamerai
+Add your OpenAI API Key to the Properties file
 mvn clean package
 java -jar target/renamerai-0.0.1-SNAPSHOT.jar <path>
 Usage: agent [-dhV] <path>
